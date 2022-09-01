@@ -1,0 +1,41 @@
+#age =  int(input ("how old are you?"))
+#if age >69:
+    #print ("you are retired, nice")
+#elif age >= 18:
+    #print ("you are an adult, at least on papper.")
+#Booleans 
+#True
+#False
+#print (9 < 7)
+#username = ("you are my favorite")
+#print (username)
+#name = input ("what is your name?")
+#if name == (alex") or name == "oskar":
+#elese:
+#rint ("go awaay please.")
+#and 
+#from decimal import ROUND_HALF_DOWN
+
+
+#from operator import truediv
+
+#True
+#False
+"""
+#tofflor = input ("kommer mamma slå dig?")
+#if tofflor == ("ja"):
+    print ("korekkt")
+#else:
+   #print ("fel")
+
+#skor= input ("har du skola imon?")
+#if skor== ("ja"):
+   # prnit ("korrekt")
+#else: 
+    #print ("nej")"""
+
+fot = ("vilket lag är bäst i världen?")
+if fot == ("real madrid"):
+    print ("sant")
+else: 
+    print ("fel")

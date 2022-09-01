@@ -1,0 +1,6 @@
+#while True:
+tal = int(input("skriv ett tal: "))
+if tal == 27:
+    print ("sant")
+else: "break"
+

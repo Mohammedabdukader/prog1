@@ -1,0 +1,50 @@
+#for x in range (100):
+    #print ("x")
+
+#capitalize
+
+
+
+score = 0
+fot = input ("vilket lag hejar på mohammed?").capitalize()
+
+if fot == ("Real madrid"):
+    print ("Helt rätt som fan")
+    score +=3 
+else: 
+    print ("Fel tyvärr")
+
+spelare = input ("vem är världens bästa spelare enligt mohammed?").capitalize()
+
+if spelare == ("Benzema"):
+    print ("Helt rätt")
+    score += 3
+else: 
+    print ("Fel tyvärr")
+
+
+mål = input("hur månmga mål har Benzema gjort under 2021/2022 säsong?")
+if mål == ("100"):
+    print ("helt rätt som faaaan")
+    score +=3
+else: print ("Fel tyvärr")
+
+
+#score -= 5 
+#score = score - 5 
+svar1 = input ("vem är Benzma?")
+if svar1 == ("En fotbollspelare"): 
+    print ("Helt rätt som faan")
+    score +=3
+else: print ("Fel som faaaan")
+#lower
+
+elit = input ("hur många Ballon d'Or har Ronaldo vunnit?")
+if elit == ("6"):
+    print ("Helt rätt")
+    score +=3 
+else: print ("Tyvärr fel")
+
+poäng = ("vill du se dina poäng?") 
+if poäng == (""): 
+    print ("bra jobbat")

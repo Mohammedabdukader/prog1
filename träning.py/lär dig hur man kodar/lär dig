@@ -1,0 +1,25 @@
+#first = "mohammed"
+#last = "abdukader"
+#print (first)
+#print (last)
+#förnamn = "mohammed"
+#efternamn = "abdukader"
+#print (förnamn) 
+#print (efternamn)
+#samtal = 10
+#print (samtal + sms)
+#print (samtal**2)
+#print (sms**10)
+#print (sms*samtal )
+
+#x= 10
+#y= 20
+#print (x*y)
+
+course = "python for biginners"
+#print (course.upper)
+
+
+print (course)
+#print (len (course))
+
