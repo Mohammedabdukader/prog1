@@ -26,6 +26,7 @@ if mål == ("100 mål"):
 
 else: print ("tyvärr fel")
 
+print("Blablabla")
 
 
    
