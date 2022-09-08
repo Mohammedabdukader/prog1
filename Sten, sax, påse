@@ -1,0 +1,26 @@
+import random
+
+computer = random.choice(["Sax", "Sten", "Påse"]).capitalize()
+
+user = input("Sten, Sax or Påse").capitalize()
+
+print("The computer chose", computer,"and the user chose", user +".")
+
+if computer == ("Sten") and user == "Påse":
+    print("computer wins")
+if user == ("Sten") and computer == "Sax":
+    print ("user wins")
+else: print ("You lost")
+
+if computer == ("Sax") and user == "Sax":
+    print ("det är lika")
+
+if computer == ("Påse") and user == "Påse":
+    print ("det är lika")
+
+if computer == ("Påse") and user == "Påse":
+    print ("det är lika")
+
+
+
+# TODO - Implement the if statements that prints who wins
