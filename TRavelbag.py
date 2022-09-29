@@ -12,7 +12,8 @@ while True:
                    "4. Avsluta program\n")
 
      if menyval == ("1"):
-          print (f"Sakerna i väskan är {travelbag}")
+          print (f"Sakerna i väskan är: 2", end="")
+          print(*travelbag, sep=", ")
      elif menyval == "2":
           inventory=input("Vad vill du lägga för saker i vätskan?")
           travelbag.append(inventory)
