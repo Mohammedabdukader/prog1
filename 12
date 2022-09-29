@@ -1,0 +1,20 @@
+score = 0
+print ("welcome to easy quiz.")
+name = input ("vad är Sveriges huvudstad?").lower()
+if name == "Stockholm":
+        print ("det stämmer")
+        score +=1
+
+else:
+    print ("Det är fel")
+
+print (f"Quizen är över, du fick {score} poäng.")
+
+score = 0
+print("Välkommen till svårare quiz?")
+nam = ("Vilket är parti styrde regeringen sista?").lower()
+if nam == "Magdelena":
+    print ("Det stämmer bra")
+
+else: 
+    print ("tyvärr fel")
