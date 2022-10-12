@@ -43,15 +43,18 @@ def maximum(a, b, c):
         return b
 print (maximum (6,8,14))
 
-"""
 def palindrom(ord):
-    # TODO Returnera True om ord är ett palindrom
-    # Ex: abba in - True ut
-    # Palindrom är ett ord som stavas likadant baklänges och framlänges.
-    pass
-
+    return palindrom_test == palindrom_test[::-1]
+palindrom_test = input("Skriv ett ord")
+ans = palindrom(palindrom_test)
+if ans:
+    print("Ordet är en palindrom")
+else: print("Ordet är inte en palindrom")
 
 def prime(nr):
     # TODO Returnera True om nr är ett primtal, annars returnera false
     # Ex: 5 in - True ut
-    pass"""
+    pass
+
+prime(5)
+prime(10)
