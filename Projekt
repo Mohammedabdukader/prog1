@@ -1,0 +1,16 @@
+nmr = {3, 4, 5, 7, 8,1}
+
+def sort_nmr (nmr):
+    Sorted= True
+
+    while (sorted):
+        sorted= False
+        for a in range (len(nmr)):
+            for b in range (len(nmr) - 1):
+                if nmr[b] > nmr[b+1]:
+                    nmr [b], nmr [b+1] = nmr [b+1],nmr [b]
+                    sorted = True 
+    
+
+sorted(nmr)
+print (nmr)
