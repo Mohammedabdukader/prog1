@@ -29,7 +29,7 @@ while spela_igen:
                 print ("Utdelaren har totalt "  +  str(sum(utdelare)) + " med här kortet " , utdelare, "\n")
 
                 if sum(utdelare) > sum(spelare1) and sum(utdelare)<=21:
-                    print ("Utdelaren har vunnit")
+                    print ("Utdelaren har vunnit \n")
                     break
                 elif sum(spelare1) > sum(utdelare) and sum(spelare1) <=21:
                     print("Du har vunnit \n")
@@ -56,7 +56,7 @@ while spela_igen:
     
     if sum (spelare1) > 21:
             print("Utdelare har", utdelare)
-            print ("Du torska! utdelaren vinner.")
+            print ("Du torska! utdelaren vinner. \n")
         
     elif sum (spelare1) ==21: 
             print ("Du har 21! grattis för den stora vinsten")
@@ -65,7 +65,7 @@ while spela_igen:
         continue 
     if spela_igen =="nej":
         spela_igen=False
-        print ("Ha en bra dag")
+        print ("\n","Ha en bra dag")
     
                 
 
