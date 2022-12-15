@@ -24,7 +24,7 @@ while spela_igen:
                 while sum(utdelare) < 16:
                     utdelare.append(random.randint (1, 11))
                 
-                
+
                 print("Du har nu totalt " + str(sum(spelare1)) + " med det här kortet" , spelare1, "\n")
                 print ("Utdelaren har totalt "  +  str(sum(utdelare)) + " med här kortet " , utdelare, "\n")
 
@@ -34,8 +34,8 @@ while spela_igen:
                 elif sum(spelare1) > sum(utdelare) and sum(spelare1) <=21:
                     print("Du har vunnit \n")
                     break
-            
-            
+
+
             if sum(utdelare) == sum(spelare1):
                     print ("Ni har lika, Ingen vinner! \n")
                     break
@@ -49,11 +49,10 @@ while spela_igen:
                 for i in range(len(utdelare)-1):
                     sträng += "x "
                 sträng += str(utdelare[0])
-                print (sträng + "\n")
-            
-        
-
-    
+                print (sträng + "\n")  
+   
+   
+   
     if sum (spelare1) > 21:
             print("Utdelare har", utdelare)
             print ("Du torska! utdelaren vinner. \n")
@@ -65,7 +64,7 @@ while spela_igen:
         continue 
     if spela_igen =="nej":
         spela_igen=False
-        print ("\n","Ha en bra dag")
+        print ("\n","Ha en bra dag!")
     
                 
 
