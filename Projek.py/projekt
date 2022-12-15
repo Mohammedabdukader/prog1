@@ -1,0 +1,16 @@
+import random 
+utdelare []
+"""name = str (input ("Vad heter du ? "))
+
+print ("hej "  +  name + ", du är världens snyggaste kille! \n " )
+meny = "te, caffe, sambosa, drickor, vatten" 
+
+print(" välkomen in i resturangen " + name + "! \n" ) 
+print (name  +  " vad vill du köpa från vår meny?" + " här är allt vi har "  +  meny + "\n")
+
+beställning = input ()
+ 
+print ("bra beställning "  + name +  " vi fixar det snart!" )"""
+
+while len(utdelare) != 2:
+     utdelare.append(random.randint(1, 11))
